@@ -11,7 +11,7 @@
   function createFareMultiplier(multiplier) {
     return function(value) {
       return value * multiplier;
-    }
+    } 
   }
   function fareDoubler(fare) {
     return fare * 2;
@@ -21,4 +21,4 @@
   }
   function selectDifferentDrivers(drivers, driverSelector) {
     return driverSelector(drivers);
-  }
+  } 
